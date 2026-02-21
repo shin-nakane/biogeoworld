@@ -240,6 +240,23 @@ img.img-fluid {
   }
 }
 
+/* 画像の表示枠（高さを固定） */
+.work-image {
+  width: 100%;
+  aspect-ratio: 4 / 3;   /* 全カード共通の比率 */
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* 枠の中で画像をトリミング表示 */
+.work-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 
 
 
