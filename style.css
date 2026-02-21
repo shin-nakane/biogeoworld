@@ -259,6 +259,32 @@ img.img-fluid {
 
 
 
+/* ===== Seasonal photo pages ===== */
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 常に2列 */
+  gap: 2rem;
+  margin: 3rem auto;
+}
+
+/* 写真の箱 */
+.photo-item {
+  width: 100%;
+  aspect-ratio: 4 / 3;   /* ← 写真の形を統一 */
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* 実画像 */
+.photo-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 
 
 
