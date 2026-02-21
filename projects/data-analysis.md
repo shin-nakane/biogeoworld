@@ -16,8 +16,8 @@ permalink: /projects/data-analysis/
 ## GPPの様子
 
 <figure class="figure">
-  <img class="img-fluid" src="{{ '/images/gppdaily.png' | relative_url }}" alt="データ分析図">
-  <figcaption class="figure-caption">図：全球のある1日のGPPの様子</figcaption>
+  <img class="img-fluid" src="{{ '/images/global_gpp.png' | relative_url }}" alt="データ分析図">
+  <figcaption class="figure-caption">図：全球GPP（2010）</figcaption>
 </figure>
 [コードを見る]({{ '/code/dailymap/' | relative_url }})
 
