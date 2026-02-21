@@ -13,7 +13,7 @@ permalink: /projects/data-analysis/
 そしてその結果を見てモデルを改良、また分析と繰り返して開発を行います。
 
 
-## GPPの様子
+## GPP
 
 <figure class="figure">
   <img class="img-fluid" src="{{ '/images/global_gpp.png' | relative_url }}" alt="データ分析図">
@@ -24,7 +24,7 @@ permalink: /projects/data-analysis/
 
 
 <figure class="figure">
-  <img class="img-fluid" src="{{ '/images/yearly_change.png' | relative_url }}" alt="データ分析図">
-  <figcaption class="figure-caption">図：1日の全球GPP合計の季節変化</figcaption>
+  <img class="img-fluid" src="{{ '/images/annual_gpp.png' | relative_url }}" alt="データ分析図">
+  <figcaption class="figure-caption">図：全球GPPの年変化</figcaption>
 </figure>
 [コードを見る]({{ '/code/yearly_change/' | relative_url }})
