@@ -9,7 +9,7 @@ permalink: /projects/fall/
 <div class="photo-grid">
 
 <div class="photo-item">
-  <img src="{{ '/iimages/S__38338595_0.jpg' | relative_url }}" alt="秋の写真1">
+  <img src="{{ '/images/S__38338595_0.jpg' | relative_url }}" alt="秋の写真1">
 </div>
 
 <div class="photo-item">
